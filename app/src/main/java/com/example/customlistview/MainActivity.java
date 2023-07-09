@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //adapter view : listView
     listView = findViewById(R.id.listView);
 // data source
-    dataModels = new ArrayList<>();
+         dataModels = new ArrayList<>();
         dataModels.add(new CountryModelClass("brazil", "5", R.drawable.brazil));
         dataModels.add(new CountryModelClass("alemania", "4", R.drawable.germany));
         dataModels.add(new CountryModelClass("france", "2", R.drawable.france));
